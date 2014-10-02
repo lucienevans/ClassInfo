@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="true">
+    <TextView
+        android:background="#F0F0F0"
+        android:paddingLeft="10dip"
+        android:paddingTop="5dip"
+        android:paddingBottom="5dip"
+        android:textSize="14sp"
+        android:id="@+id/group_textview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+</RelativeLayout>

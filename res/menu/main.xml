@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    
+    <item android:id="@+id/action_settings" android:showAsAction="never" android:title="@string/action_settings"/>
+    <item android:id="@+id/item_add" android:showAsAction="never" android:title="@string/add_class" android:icon="@drawable/ic_tab_add"></item>
+    
+
+</menu>

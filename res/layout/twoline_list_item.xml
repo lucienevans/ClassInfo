@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="true"
+    android:background="@drawable/ic_list_item">
+    <TextView 
+        android:paddingTop="5dip"
+        android:paddingLeft="10dip"
+        android:id="@+id/list_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:textColor="@android:color/black"/>
+    <TextView 
+        android:id="@+id/list_describe"
+        android:paddingLeft="10dip"
+        android:layout_marginTop="5dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_below="@id/list_info"
+        android:layout_alignLeft="@id/list_info"
+        android:textColor="@android:color/darker_gray"/>
+</RelativeLayout>

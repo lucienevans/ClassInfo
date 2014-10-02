@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="学期设置" >
+        <com.will.classinfo.component.DatePickerPreference
+            android:key="@string/first_class_time"
+            android:title="第一周星期一日期" />
+        <ListPreference
+            android:entries="@array/preference_week_num_list_str"
+            android:entryValues="@array/preference_week_num_list_value"
+            android:key="@string/total_week_num"
+            android:title="学期总周数" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="课程设置" >
+        <ListPreference
+            android:entries="@array/preference_class_time_list_str"
+            android:entryValues="@array/preference_class_time_list_value"
+            android:key="@string/morn_class_num"
+            android:title="早上课程数" />
+        <ListPreference
+            android:entries="@array/preference_class_time_list_str"
+            android:entryValues="@array/preference_class_time_list_value"
+            android:key="@string/after_class_num"
+            android:title="下午课程数" />
+        <ListPreference
+            android:entries="@array/preference_class_time_list_str"
+            android:entryValues="@array/preference_class_time_list_value"
+            android:key="@string/even_class_num"
+            android:title="晚上课程数" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

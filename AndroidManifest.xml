@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.will.classinfo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="14" />
+
+    <application
+        android:name="com.will.classinfo.ClassApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:logo="@drawable/ic_launcher"
+        android:uiOptions="splitActionBarWhenNarrow" 
+        android:theme="@android:style/Theme.DeviceDefault.Light">
+        <activity
+            android:name="com.will.classinfo.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="ClassInfoActivity" >
+        </activity>
+        <activity android:name="SettingActivity" >
+        </activity>
+        <activity android:name="AddClassActivity" >
+        </activity>
+        <activity android:name="ModifyClassActivity" >
+        </activity>
+
+        <receiver
+            android:name=".widget.WidgetProvider_4_1"
+            android:label="课程表4x1" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.will.classinfo.widget.datachange" />
+                <action android:name="com.will.classinfo.widget.datechange" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_provider_info_4_1" />
+        </receiver>
+        
+        
+        <receiver
+            android:name=".widget.WidgetProvider_4_2"
+            android:label="课程表4x2" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.will.classinfo.widget.datachange" />
+                <action android:name="com.will.classinfo.widget.datechange" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_provider_info_4_2" />
+        </receiver>
+        
+        <receiver
+            android:name=".widget.WidgetProvider_4_4"
+            android:label="课程表4x4" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.will.classinfo.widget.datachange" />
+                <action android:name="com.will.classinfo.widget.datechange" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_provider_info_4_4" />
+        </receiver>
+        
+        <service android:name=".service.DateChangeService"></service>
+    </application>
+
+</manifest>

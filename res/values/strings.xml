@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">简易课程表</string>
+    <string name="action_settings">设置</string>
+    <string name="date_picker_title">第一周日期</string>
+    <string name="add_class">添加课程</string>
+    <string name="show_class">显示课程</string>
+    <string name="main_title">课程一览</string>
+    <string name="confirm">完成</string>
+    <string name="morn_class_num">mornclassnum</string>
+    <string name="after_class_num">afterclassnum</string>
+    <string name="even_class_num">evenclassnum</string>
+    <string name="finished_class">finishedclass</string>
+    <string name="year">Year</string>
+    <string name="month">Month</string>
+    <string name="class_name">classname</string>
+    <string name="teacher">teacher</string>
+    <string name="pichnum">pichnum</string>
+    <string name="location">location</string>
+    <string name="class_time">classtime</string>
+    <string name="first_class_time">firstclasstime</string>
+    <string name="total_week_num">totalclassnum</string>
+    <string name="class_position">classposition</string>
+    <string name="no_finished_class">nofinishedclass</string>
+    <string name="isfinished">isfinished</string>
+    <string name="classinfo_widget_datachange_action">com.will.classinfo.widget.datachange</string>
+    <string name="classinfo_widget_datechange_action">com.will.classinfo.widget.datechange</string>
+
+</resources>

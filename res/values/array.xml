@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="preference_class_time_list_str">
+        <item >1节</item>
+        <item >2节</item>
+        <item >3节</item>
+        <item >4节</item>
+        <item >5节</item>
+        <item >6节</item>
+    </string-array>
+    <string-array name="preference_class_time_list_value">
+        <item >1</item>
+        <item >2</item>
+        <item >3</item>
+        <item >4</item>
+        <item >5</item>
+        <item >6</item>
+    </string-array>
+    <string-array name="preference_week_num_list_str">
+        <item >10周</item>
+        <item >11周</item>
+        <item >12周</item>
+        <item >13周</item>
+        <item >14周</item>
+        <item >15周</item>
+        <item >16周</item>
+        <item >17周</item>
+        <item >18周</item>
+        <item >19周</item>
+        <item >20周</item>
+        <item >21周</item>
+        <item >22周</item>
+        <item >23周</item>
+        <item >24周</item>
+        <item >25周</item>
+    </string-array>
+    <string-array name="preference_week_num_list_value">
+        <item >10</item>
+        <item >11</item>
+        <item >12</item>
+        <item >13</item>
+        <item >14</item>
+        <item >15</item>
+        <item >16</item>
+        <item >17</item>
+        <item >18</item>
+        <item >19</item>
+        <item >20</item>
+        <item >21</item>
+        <item >22</item>
+        <item >23</item>
+        <item >24</item>
+        <item >25</item>
+    </string-array>
+    <integer-array name="widget_text_id">
+        <item >1</item>
+        <item >2</item>
+        <item >3</item>
+        <item >4</item>
+    </integer-array>
+    <string-array name="day_week">
+        <item >星期一</item>
+        <item >星期二</item>
+        <item >星期三</item>
+        <item >星期四</item>
+        <item >星期五</item>
+        <item >星期六</item>
+        <item >星期日</item>
+    </string-array>
+
+</resources>
+    
